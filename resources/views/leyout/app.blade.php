@@ -9,7 +9,7 @@
 </head>
 <body>
     @include('../partials/header')
-    @yield('title','TITOLO')
+    {{-- @yield('title','TITOLO') --}}
     @yield('content')
     @include('../partials/footer')
 </body>
