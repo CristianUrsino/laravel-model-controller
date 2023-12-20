@@ -8,7 +8,9 @@
     <title>Laravel base @yield('title', 'template')</title>
 </head>
 <body>
+    @include('../partials/header')
     @yield('title','TITOLO')
     @yield('content')
+    @include('../partials/footer')
 </body>
 </html>
